@@ -102,7 +102,7 @@ class Jobdescrip_screen extends StatelessWidget {
                           SizedBox(
                             height: 20,
                           ),
-                          Button(name: "Read More", btncolor: btncolor, textcolor: maincolor, width: 150),
+                          Button(name: "Read More", btncolor: btncolor, textcolor: maincolor, width: 150,height: 50),
                           SizedBox(height: 20,),
                           Apptext(
                               text: "Requirements",
@@ -365,7 +365,7 @@ class Jobdescrip_screen extends StatelessWidget {
                             ],
                           ),
                           SizedBox(height: 30,)
-                          ,Align(alignment:Alignment.center,child: Button(name: "APPLY NOW", btncolor: maincolor, textcolor: white, width: 300)),
+                          ,Align(alignment:Alignment.center,child: Button(name: "APPLY NOW", btncolor: maincolor, textcolor: white, width: 300,height: 50,)),
                           SizedBox(height: 20,)
 
                         ]),

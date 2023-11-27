@@ -7,15 +7,17 @@ class Button extends StatelessWidget {
   final String name;
   final Color textcolor;
   final Color btncolor;
+  final double height;
   final double width;
 
 
-  const Button({super.key, required this.name, required this.btncolor, required this.textcolor, required this.width,});
+
+  const Button({super.key, required this.name, required this.btncolor, required this.textcolor, required this.width, required this.height,});
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 50,
+      height: height,
       width: width,
       decoration: BoxDecoration(
         color: btncolor, borderRadius: BorderRadius.circular(5),),

@@ -110,7 +110,7 @@ class Forgotpass_screen extends StatelessWidget {
                     child: Button(
                         name: "RESET PASSWORD",
                         btncolor: maincolor,
-                        textcolor: white,width: 400),
+                        textcolor: white, height: 50,width: 400),
                   ),
                   const SizedBox(
                     height: 25,
@@ -126,7 +126,7 @@ class Forgotpass_screen extends StatelessWidget {
                     child:  Button(
                         name: "BACK TO LOGIN",
                         btncolor: btncolor,
-                        textcolor: white,width: 400),
+                        textcolor: white,height: 50,width: 400),
                   ),
                 ]),
           ),

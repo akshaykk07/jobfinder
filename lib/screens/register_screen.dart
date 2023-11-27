@@ -230,7 +230,8 @@ class Register_screen extends StatelessWidget {
                             ));
                       },
                       child: Button(
-                          name: "LOGIN", btncolor: maincolor, textcolor: white,width: 500),
+
+                          name: "LOGIN", btncolor: maincolor, textcolor: white,height: 50,width: 500),
                     ),
                   ),
                   const SizedBox(

@@ -1,17 +1,35 @@
 import 'package:flutter/material.dart';
 import 'package:jobfinder/home.dart';
+import 'package:jobfinder/screens/aboutme.dart';
+import 'package:jobfinder/screens/addappriciation.dart';
+import 'package:jobfinder/screens/addlanguage.dart';
+import 'package:jobfinder/screens/language.dart';
+import 'package:jobfinder/screens/addskill2.dart';
+import 'package:jobfinder/screens/changeskill.dart';
+import 'package:jobfinder/screens/company.dart';
+import 'package:jobfinder/screens/editappreciation.dart';
 import 'package:jobfinder/screens/addcv.dart';
+import 'package:jobfinder/screens/addeduction.dart';
 import 'package:jobfinder/screens/addjob.dart';
 import 'package:jobfinder/screens/addpost.dart';
 import 'package:jobfinder/screens/addskil.dart';
+import 'package:jobfinder/screens/changeeducation.dart';
 import 'package:jobfinder/screens/checkemail_screen.dart';
 import 'package:jobfinder/screens/editaddjob.dart';
 import 'package:jobfinder/screens/filter1.dart';
 import 'package:jobfinder/screens/fieldofstudy.dart';
+import 'package:jobfinder/screens/findjob.dart';
 import 'package:jobfinder/screens/institutename.dart';
 import 'package:jobfinder/screens/jobposition.dart';
 import 'package:jobfinder/screens/levelofeducation.dart';
+import 'package:jobfinder/screens/message.dart';
+import 'package:jobfinder/screens/myconnection.dart';
+import 'package:jobfinder/screens/myprofile.dart';
 import 'package:jobfinder/screens/notifications.dart';
+import 'package:jobfinder/screens/post.dart';
+import 'package:jobfinder/screens/sample.dart';
+import 'package:jobfinder/screens/savejob.dart';
+import 'package:jobfinder/screens/searchlanguage.dart';
 import 'package:jobfinder/screens/searchnotfount.dart';
 import 'package:jobfinder/screens/forgotpass_screen.dart';
 import 'package:jobfinder/screens/jobcompany_screen.dart';
@@ -20,6 +38,7 @@ import 'package:jobfinder/screens/login_screen.dart';
 import 'package:jobfinder/screens/onbord_screen.dart';
 import 'package:jobfinder/screens/register_screen.dart';
 import 'package:jobfinder/screens/search.dart';
+import 'package:jobfinder/screens/sharedjob.dart';
 import 'package:jobfinder/screens/spaicilization_screen.dart';
 import 'package:jobfinder/screens/splash_screen.dart';
 import 'package:jobfinder/screens/uploadresume.dart';
@@ -43,7 +62,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:Addskill_screen(),
+      home:Addlanguage(),
     );
   }
 }

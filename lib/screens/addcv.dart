@@ -79,7 +79,7 @@ class Addcv_screen extends StatelessWidget {
                 name: "SAVE",
                 btncolor: maincolor,
                 textcolor: white,
-                width: 200),
+                width: 200,height: 50),
           ),
         ),
       ]),

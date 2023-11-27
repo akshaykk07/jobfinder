@@ -183,7 +183,7 @@ class _Filter1_screenState extends State<Filter1_screen> {
 
           Padding(
             padding: const EdgeInsets.only(top: 20,),
-            child: Button(name: "APPLY NOW", btncolor: maincolor, textcolor: white, width: 250),
+            child: Button(name: "APPLY NOW", btncolor: maincolor, textcolor: white,height: 50, width: 250),
           )
         ]),
       ),

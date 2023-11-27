@@ -159,6 +159,7 @@ class Cv_screen extends StatelessWidget {
               name: "APPLY NOW",
               btncolor: maincolor,
               textcolor: white,
+              height: 50,
               width: 300),
         ),
       ]),

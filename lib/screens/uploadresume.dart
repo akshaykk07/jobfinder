@@ -81,6 +81,7 @@ class Uploadresume_screen extends StatelessWidget {
                 name: "SAVE",
                 btncolor: maincolor,
                 textcolor: white,
+                height: 50,
                 width: 200),
           ),
         ),
