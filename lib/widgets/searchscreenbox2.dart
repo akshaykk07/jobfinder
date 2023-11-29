@@ -40,6 +40,7 @@ class Searchscreenbox2 extends StatelessWidget {
               children: [
                 ListTile(
                   leading: CircleAvatar(
+                    backgroundColor: white,
                     radius: 20,
                     child: Image.asset(img),
                   ),

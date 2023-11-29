@@ -11,10 +11,10 @@ class Addeducation_screen extends StatelessWidget {
     return Scaffold(
       backgroundColor:backcolor,
       appBar: AppBar(
-        leading: Icon(
-          Icons.arrow_back_sharp,
-          color: maincolor,
-        ),
+        backgroundColor: backcolor,
+        elevation: 0,
+        iconTheme: const IconThemeData(color: maincolor),
+
       ),
       body: Padding(
         padding: const EdgeInsets.all(20),

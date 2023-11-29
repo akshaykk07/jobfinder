@@ -11,12 +11,10 @@ class Searchlanguage_Screen extends StatelessWidget {
     return Scaffold(
       backgroundColor:backcolor,
       appBar: AppBar(
-        elevation: 0,
-        leading: const Icon(
-          Icons.arrow_back,
-          color: maincolor,
-        ),
         backgroundColor: backcolor,
+        elevation: 0,
+        iconTheme:  IconThemeData(color: maincolor),
+
       ),
 body: Padding(
   padding: const EdgeInsets.all(20),
@@ -80,7 +78,7 @@ Expanded(
   Widget buildListTile(String title,String img) => Padding(
     padding: const EdgeInsets.only(top: 10),
     child: ListTile(
-      leading: CircleAvatar(child: Image.asset(img,fit: BoxFit.contain),radius: 15,),
+      leading: CircleAvatar(child: Image.asset(img,fit: BoxFit.contain),radius: 15,backgroundColor: white,),
       title: Apptext(text: title, size: 12,
           weight: FontWeight.w400,
           textcolor: maincolor),

@@ -10,11 +10,10 @@ class Addskill_screen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: white,
-        leading: const Icon(
-          Icons.arrow_back_sharp,
-          color: maincolor,
-        ),
+        backgroundColor: backcolor,
+        elevation: 0,
+        iconTheme: const IconThemeData(color: maincolor),
+
       ),
       body: Padding(
         padding: const EdgeInsets.all(20),

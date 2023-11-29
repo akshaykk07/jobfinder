@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:jobfinder/home.dart';
 import 'package:jobfinder/screens/aboutme.dart';
+import 'package:jobfinder/screens/aboutus.dart';
 import 'package:jobfinder/screens/addappriciation.dart';
 import 'package:jobfinder/screens/addlanguage.dart';
+import 'package:jobfinder/screens/createjobpost.dart';
+import 'package:jobfinder/screens/jobs.dart';
 import 'package:jobfinder/screens/language.dart';
 import 'package:jobfinder/screens/addskill2.dart';
 import 'package:jobfinder/screens/changeskill.dart';
@@ -27,6 +30,9 @@ import 'package:jobfinder/screens/myconnection.dart';
 import 'package:jobfinder/screens/myprofile.dart';
 import 'package:jobfinder/screens/notifications.dart';
 import 'package:jobfinder/screens/post.dart';
+import 'package:jobfinder/screens/post1.dart';
+import 'package:jobfinder/screens/postcompany.dart';
+import 'package:jobfinder/screens/profile.dart';
 import 'package:jobfinder/screens/sample.dart';
 import 'package:jobfinder/screens/savejob.dart';
 import 'package:jobfinder/screens/searchlanguage.dart';
@@ -38,9 +44,12 @@ import 'package:jobfinder/screens/login_screen.dart';
 import 'package:jobfinder/screens/onbord_screen.dart';
 import 'package:jobfinder/screens/register_screen.dart';
 import 'package:jobfinder/screens/search.dart';
+import 'package:jobfinder/screens/settings.dart';
 import 'package:jobfinder/screens/sharedjob.dart';
 import 'package:jobfinder/screens/spaicilization_screen.dart';
 import 'package:jobfinder/screens/splash_screen.dart';
+import 'package:jobfinder/screens/test.dart';
+import 'package:jobfinder/screens/updatepassword.dart';
 import 'package:jobfinder/screens/uploadresume.dart';
 import 'package:jobfinder/screens/uplodcv.dart';
 
@@ -57,12 +66,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home:Addlanguage(),
+      home:Createjobpost_screen(),
     );
   }
 }

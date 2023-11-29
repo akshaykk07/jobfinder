@@ -264,7 +264,7 @@ class Register_screen extends StatelessWidget {
                               ));
                         },
                         child: Apptext(
-                            text: "Sign Up",
+                             text: "Sign Up",
                             size: 12,
                             weight: FontWeight.w400,
                             textcolor: saffron),

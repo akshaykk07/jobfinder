@@ -13,10 +13,7 @@ class Aboutme_screen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: backcolor,
         elevation: 0,
-        leading: const Icon(
-          Icons.arrow_back_sharp,
-          color: maincolor,
-        ),
+        iconTheme: const IconThemeData(color: maincolor),
       ),
       body: SafeArea(
         child: Padding(

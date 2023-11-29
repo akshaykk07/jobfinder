@@ -13,11 +13,11 @@ class Addcv_screen extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: backcolor,
         elevation: 0,
-        leading: const Icon(
-          Icons.arrow_back,
-          color: black,
-        ),
+        iconTheme: const IconThemeData(color: maincolor),
+
+
         actions: const [
           Icon(
             Icons.more_vert,
@@ -27,7 +27,7 @@ class Addcv_screen extends StatelessWidget {
             width: 10,
           )
         ],
-        backgroundColor: white,
+
       ),
       body: Stack(children: [
         Column(children: [

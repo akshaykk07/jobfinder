@@ -13,10 +13,8 @@ class Addappriciation_screen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: backcolor,
         elevation: 0,
-        leading: Icon(
-          Icons.arrow_back_sharp,
-          color: maincolor,
-        ),
+        iconTheme: const IconThemeData(color: maincolor),
+
       ),
       body: Padding(
         padding: const EdgeInsets.all(20),
@@ -26,7 +24,7 @@ class Addappriciation_screen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(bottom: 15),
               child: Apptext(
-                  text: "Edit Appreciation",
+                  text: "Add Appreciation",
                   size: 16,
                   weight: FontWeight.w700,
                   textcolor: maincolor),
